@@ -52,23 +52,23 @@
                     }
                     if(choose == "EUR" && choose2 == "GBP" && !isNaN(amount))
                     {
-                        result.value = obj["rates"]["GBP"] * amount;
+                        result.value = obj2["rates"]["GBP"] * amount;
                     }
                     if(choose == "EUR" && choose2 == "CAD" && !isNaN(amount))
                     {
-                        result.value = obj["rates"]["CAD"] * amount;
+                        result.value = obj2["rates"]["CAD"] * amount;
                     }
                     if(choose == "EUR" && choose2 == "TRY" && !isNaN(amount)) 
                     {
-                        result.value = obj["rates"]["TRY"] * amount;
+                        result.value = obj2["rates"]["TRY"] * amount;
                     }
                     if(choose == "EUR" && choose2 == "PLN" && !isNaN(amount)) 
                     {
-                        result.value = obj["rates"]["PLN"] * amount;
+                        result.value = obj2["rates"]["PLN"] * amount;
                     }
                     if(choose == "EUR" && choose2 == "RUB" && !isNaN(amount))
                     {
-                        result.value = obj["rates"]["RUB"] * amount;
+                        result.value = obj2["rates"]["RUB"] * amount;
                     }
                 }
             }
