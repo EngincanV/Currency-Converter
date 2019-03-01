@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+.converter {
+    border: 1px solid black;
+    margin: 100px auto;
+    width: 50%;
+    text-align: center;
+}
+input {
+    margin-bottom: 10px;
+}

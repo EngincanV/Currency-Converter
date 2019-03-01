@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Example</title>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- My CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: bisque" onload="doThis()">
+    <div class="converter container-fluid jumbotron">
+        <h2>Currency Converter</h2><br>
+        <div class="box">
+            Amount: <input value="1" type="text" size="15" style="line-height:1em" id="amount">
+            <select name="chooseCurrency" id="choose">
+                <option value="USD" selected>USD - American Dollar</option>
+                <option value="EUR">EUR - Euro</option>
+            </select>
+        </div>
+        <div class="box">
+            Convert: <input type="text" id="result" size="15">
+            <select name="secCurrency" id="choose2">
+                <option value="USD">USD - American Dollar</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="GBP">GBP - Pound Sterling</option>
+                <option value="CAD">CAD - Canada Dollar</option>
+                <option value="TRY" selected>TRY - Turkish Lira</option>
+                <option value="PLN">PLN - Poland Zloty</option>
+                <option value="RUB">RUB - Russian Ruble</option>
+            </select>
+        </div>
+            <br><br>
+            <button type="button" onclick="run()" class="btn btn-dark">Convert</button>
+    </div>
+    <!-- My JavaScript File -->
+    <script src="main.js"></script>
+</body>
+</html>
