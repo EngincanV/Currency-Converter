@@ -2,6 +2,10 @@
 In this project, i tried to use JSON and Ajax together. 
 And I used API first time that very helped me to see how datas transform JSON objects and get transfer into the project.
 
+![adsiz](https://user-images.githubusercontent.com/43685404/53625210-867e9a80-3c13-11e9-96ed-43754c447955.png)
+
+# Notes Form ME
+
 ## JSON
 
 #### A common use of JSON is to exchange data to/from a web server. When receiving data from a web server, the data is always a string. Parse the data with JSON.parse(), and the data becomes a JavaScript object.
